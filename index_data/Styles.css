@@ -1,0 +1,187 @@
+body {
+	font-family:arial, helvetica;
+	font-size:16px;
+	
+	color:#AAAAAA;
+	padding:10px;
+}
+#Container {
+	width:900px;
+	margin:auto;
+}
+.glov{width:154px;height:154px;border:0;}
+#Top {
+	background:#2eb82e;
+	width:100%;
+	text-align:right;
+	padding-top:20px;
+}
+#Header {
+	background:black url(Mid.jpg) repeat-y;
+	padding-left:10px;
+}
+#Header table {
+	width:600px;
+	margin-top:40px;
+	margin-left:0px;
+}
+#Header img#Holo {
+	float:right;
+	margin-right:40px;
+}
+#Header #Title {
+	font-family:aurabesh, arial, helvetica;
+	font-size:28px;
+	color:#66ff66;
+	padding:10px;
+}
+#Header #Subtitle {
+	padding-left:35px;
+	padding-bottom:10px;
+	font-size:20px;
+}
+#Header img#Title {
+	width:650px;
+	margin:10px;
+}
+#TopMenu {
+	background:black url(MenuBack.jpg) no-repeat;
+	height:25px;
+	padding-top:5px;
+	padding-left:20px;
+}
+#BodyContainer {
+	font-size:5px;
+	background:#333333 url(Mid.jpg) repeat-y;
+}
+#Body {
+	background:#1f7a1f;
+	border:3px double #990000;
+	font-size:16px;
+	width:650px;
+	margin-left:210px;
+	padding:10px;
+}
+#Body h1, h2, h3, h4 {
+	color:#CCCCCC;
+}
+#Body h1 {
+	background:#990000;
+	border:3px outset #111111;
+	padding:2px;
+}
+#Body h2 {
+	background:#222222;
+	border:3px double #990000;
+	padding:2px;
+}
+#Body h3 {
+	border-left:3px ridge #FF0000;
+	border-top:3px ridge #FF0000;
+	padding:2px;
+}
+#Body h4 {
+	text-decoration:overline underline;
+}
+#Body fieldset {
+	border:3px double #990000;
+	padding:10px;
+}
+#Body legend {
+	color:#FF0000;
+	font-size:18px;
+}
+#Body blockquote {
+	background:#32CD32;
+	color:#990000;
+	border:1px solid #FF0000;
+	padding:10px;
+}
+#Body a {
+	color:#CCCCCC;
+}
+#Body a:hover {
+	color:white;
+}
+#Body li {
+	list-style:url(Li1.gif);
+}
+#Body li li {
+	list-style:url(Li2.gif);
+}
+#Body li li li {
+	list-style:url(Li3.gif);
+}
+#Body img {
+	border:1px solid black;
+}
+/* IE Workaround for horizontal rules */
+#Body div.hr {
+	background:#990000 url(HR.gif) no-repeat scroll center;
+	height:5px;
+	text-align:center;
+}
+#Body div.hr hr {
+	display:none;
+}
+/* End IE Workaround */
+#Footer {
+	background:#333333 url(Bottom.jpg) no-repeat;
+	height:30px;
+	font-size:10px;
+	text-align:center;
+	padding:10px;
+}
+#Footer a {
+	color:#AAAAAA;
+}
+#Footer a:hover {
+	color:white;
+}
+/* CSS Menu */
+#Menu {
+	background:none;
+	width:200px;
+	float:left;
+	margin-left:-10px;
+	margin-top:5px;
+	font-size:12px;
+
+}
+#Menu img {
+	margin-left:50px;
+}
+#Menu a {
+	text-decoration:none;
+	display:block;
+	color:green;
+	background-color: silver;
+}
+#Menu li {
+	border:1px solid black;
+	height:30px;
+	list-style:none;
+	font-weight:bold;
+	background:url(Menu.gif) no-repeat;
+	color: 
+	 #66ff66;
+	text-align:center;
+	position:relative;
+	cursor:pointer;
+}
+#Menu li:hover {
+	background-color: #006600;
+}
+#Menu ul ul {
+	position:absolute;
+	top:0px;
+	left:75%;
+	width:115%;
+}
+#Menu ul ul, #Menu ul li:hover ul {
+	display:none;
+}
+#Menu ul li:hover ul, #Menu ul ul li:hover ul {
+	display:block;
+}
+/* End of CSS Menu */
